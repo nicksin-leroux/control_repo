@@ -19,6 +19,6 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
-node 'minetest.pupet.vm' {
+node 'minetest.pupet.vm': {
   include role::minecraft_server
 }
